@@ -42,7 +42,7 @@ This returns:
 Now we're getting somewhere! No more digging around in the documentation trying to figure out
 what's available to you.
 
-The output is wrapped in <pre> tags to display nicely in your webpage.
+The output is wrapped in `<pre>` tags to format it nicely.
 
 Developers
 ==========
