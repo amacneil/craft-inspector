@@ -54,11 +54,11 @@ and it will be displayed when people inspect your object. For example:
     {
         public function getHelpText()
         {
-            "This variable represents a pizza."
+            return "This variable represents a pizza.";
         }
     }
 
-When people inspect your variable, now they will see:
+When people inspect your object, they will now see:
 
     Blocks\PizzaModel
     -----------------
