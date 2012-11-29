@@ -2,8 +2,8 @@ Inspector Plugin for Blocks CMS
 ===============================
 
 This plugin adds a helpful `inspect` method to your blocks templates. This will help you
-see in the dark - figure out what kind of variable you are dealing with, and what methods
-it implements.
+see in the dark - figure out what kind of variables you are dealing with, and what methods
+they implement.
 
 You can use inspector either as a function or filter:
 
