@@ -1,7 +1,7 @@
-Inspector Plugin for Blocks CMS
-===============================
+Inspector Plugin for Craft CMS
+==============================
 
-This plugin adds a helpful `inspect` method to your blocks templates. This will help you
+This plugin adds a helpful `inspect` method to your Craft templates. This will help you
 see in the dark - figure out what kind of variables you are dealing with, and what methods
 they implement.
 
@@ -12,8 +12,8 @@ You can use inspector either as a function or filter:
 
 Either way, it will return the same output:
 
-    Blocks\HttpRequestVariable
-    --------------------------
+    Craft\HttpRequestVariable
+    -------------------------
 
     Attributes:
 
@@ -60,8 +60,8 @@ and it will be displayed when people inspect your object. For example:
 
 When people inspect your object, they will now see:
 
-    Blocks\PizzaModel
-    -----------------
+    Craft\PizzaModel
+    ----------------
     This variable represents a pizza.
 
     Attributes:

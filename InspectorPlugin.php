@@ -1,17 +1,17 @@
 <?php
 
-namespace Blocks;
+namespace Craft;
 
 class InspectorPlugin extends BasePlugin
 {
     public function getName()
     {
-        return Blocks::t('Inspector');
+        return Craft::t('Inspector');
     }
 
     public function getVersion()
     {
-        return '0.1';
+        return '1.0';
     }
 
     public function getDeveloper()
@@ -26,7 +26,7 @@ class InspectorPlugin extends BasePlugin
 
     public function hookAddTwigExtension()
     {
-        Blocks::import('plugins.inspector.twigextensions.InspectorTwigExtension');
+        Craft::import('plugins.inspector.twigextensions.InspectorTwigExtension');
 
         return new InspectorTwigExtension();
     }

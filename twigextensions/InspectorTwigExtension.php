@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocks;
+namespace Craft;
 
 class InspectorTwigExtension extends \Twig_Extension
 {
