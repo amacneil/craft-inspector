@@ -1,9 +1,15 @@
-Inspector Plugin for Craft CMS
-==============================
+# Inspector Plugin for Craft CMS
 
 This plugin adds a helpful `inspect` method to your Craft templates. This will help you
 see in the dark - figure out what kind of variables you are dealing with, and what methods
 they implement.
+
+## Installation
+
+1. Upload this directory to `craft/plugins/inspector/` on your server.
+2. Enable the plugin under *Craft Admin > Settings > Plugins*
+
+## Usage
 
 You can use inspector either as a function or filter:
 
@@ -44,8 +50,7 @@ what's available to you.
 
 The output is wrapped in `<pre>` tags to format it nicely.
 
-Developers
-==========
+## Developers
 
 Add support for Inspector to your plugins! Simply add a `getHelpText` method to your models,
 and it will be displayed when people inspect your object. For example:
