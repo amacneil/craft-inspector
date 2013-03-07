@@ -13,8 +13,8 @@ they implement.
 
 You can use inspector either as a function or filter:
 
-    {{ blx.request | inspect }}
-    {{ inspect(blx.request) }}
+    {{ craft.request | inspect }}
+    {{ inspect(craft.request) }}
 
 Either way, it will return the same output:
 
@@ -39,7 +39,7 @@ Either way, it will return the same output:
 
 Aha! We can see this variable has some useful methods on it. Let's dig deeper:
 
-    {{ blx.request.getSegments | inspect }}
+    {{ craft.request.getSegments | inspect }}
 
 This returns:
 
