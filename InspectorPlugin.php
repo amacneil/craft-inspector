@@ -24,7 +24,7 @@ class InspectorPlugin extends BasePlugin
         return 'http://adrianmacneil.com';
     }
 
-    public function hookAddTwigExtension()
+    public function AddTwigExtension()
     {
         Craft::import('plugins.inspector.twigextensions.InspectorTwigExtension');
 
