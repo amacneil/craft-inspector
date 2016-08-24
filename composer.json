@@ -1,0 +1,12 @@
+{
+    "name": "amacneil/craft-inspector",
+    "description": "A helpful inspector plugin for Craft CMS",
+    "homepage": "https://github.com/amacneil/craft-inspector",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Macneil"
+        }
+    ],
+    "type": "craft-plugin"
+}
